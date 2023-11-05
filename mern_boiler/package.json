@@ -1,0 +1,19 @@
+{
+  "name": "mern_map",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd mern_server && npm run dev",
+    "client": "cd mern_client && npm start",
+    "start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.6.0",
+    "react": "^18.2.0",
+    "styled-components": "^6.1.0"
+  },
+  "description": ""
+}
