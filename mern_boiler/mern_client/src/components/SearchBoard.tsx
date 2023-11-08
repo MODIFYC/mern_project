@@ -10,14 +10,14 @@ const StyledSearchBoard = styled.div`
   width: 100%;
   max-width: 436px;
   height: 100%;
-  position: absolute;
+  position: fixed;
+  overflow-y: scroll;
   background: #ffffff;
   top: 0px;
   padding: 74px 16px 16px 16px;
 
   .search_board_wrap {
     height: 100%;
-    overflow-y: scroll;
   }
 
   .no_result {

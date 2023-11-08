@@ -25,15 +25,14 @@ function Marker({ map, position, content, onClick }: MakerProps) {
     }
     if (onClick) {
       naver.maps.Event.addListener(marker, "click", onClick);
-      map.panTo(position);
     }
 
     return () => {
       marker?.setMap(null);
     };
-  }, [map]);
+  }, [content, map, onClick, position]);
 
-  return <div>Marker</div>;
+  return <></>;
 }
 
 export default Marker;

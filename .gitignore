@@ -1,8 +1,10 @@
-/최종코드 + 보일러플레이트 코드
-/node_modules
-/mern_boiler/node_modules
-/mern_boiler/mern_client/node_modules
-/mern_boiler/mern_server/node_modules
-/mern_boiler/mern_mongo/data
+최종코드 + 보일러플레이트 코드
+node_modules
+mern_boiler\node_modules
+mern_boiler\mern_client\node_modules
+mern_boiler\mern_server\node_modules
+mern_boiler\mern_server\package-lock.json
+mern_boiler\mern_mongo\data\
+mern_boiler/mern_mongo/data/
 .gitignore
 .env
