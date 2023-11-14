@@ -7,4 +7,4 @@ mern_boiler/mern_server/package-lock.json
 mern_boiler/mern_mongo/data/
 .gitignore
 .env
-
+.vscode\c_cpp_properties.json

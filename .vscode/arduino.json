@@ -1,0 +1,6 @@
+{
+    "sketch": "mern_boiler\\mern_server\\arduino\\arduino.ino",
+    "board": "arduino:avr:uno",
+    "port": "COM5",
+    "programmer": "avrispmkii"
+}
