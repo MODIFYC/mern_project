@@ -19,9 +19,10 @@ app.set('port', port);
 const {DB_USER, DB_PASSWORD, DB_HOST, DB_PORT, DB_NAME} = process.env
 
 // mongo compass의 주소 복사
+// `mongodb://${DB_USER}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${DB_NAME}?authMechanism=DEFAULT&authSource=admin`)
 mongoose
   .connect(
-  `mongodb://${DB_USER}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${DB_NAME}?authMechanism=DEFAULT&authSource=admin`)
+  `mongodb+srv://${DB_USER}:${DB_PASSWORD}@${DB_HOST}?retryWrites=true&w=majority`)
   .then(() => console.log("Connected to mongo server"))
   .catch((e) => console.log(e));
 /**
