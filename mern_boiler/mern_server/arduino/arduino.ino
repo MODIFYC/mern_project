@@ -13,7 +13,6 @@ void loop()
 {
   // node js에서 보낸 값
   int incomingValue = 0;
-
   if (Serial.available() > 0)
   { // 뭔가 입력값이 있다면
     incomingValue = Serial.read();
